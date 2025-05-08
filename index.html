@@ -1,18 +1,73 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MRG Tecnologia</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="logo.png" />
 </head>
 <body>
-  <div class="container">
-    <h1>🚧 Site em Construção</h1>
-    <p>
-      A empresa de <strong>Matheus Russo</strong> e <strong>Giovana Cezari</strong> está em criação,<br>
-      aguarde novidades em breve!
-    </p>
-  </div>
+  <header class="topo">
+    <div class="container">
+      <img src="logo.png" alt="Logo MRG Tecnologia" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Soluções inteligentes para o seu negócio</h1>
+      <p>Criação de sites, dashboards e tecnologia sob medida</p>
+      <a href="#contato" class="btn">Fale conosco</a>
+    </div>
+  </section>
+
+  <section id="servicos" class="servicos">
+    <div class="container">
+      <h2>Nossos Serviços</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Sites Profissionais</h3>
+          <p>Criação de sites responsivos em WordPress ou HTML/CSS.</p>
+        </div>
+        <div class="card">
+          <h3>Dashboards e BI</h3>
+          <p>Visualize seus dados com clareza e tomada de decisão.</p>
+        </div>
+        <div class="card">
+          <h3>Consultoria em TI</h3>
+          <p>Suporte e estratégia tecnológica para seu negócio crescer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <h2>Sobre a MRG</h2>
+      <p>Fundada por Matheus Russo e Giovana Cezari, a MRG Tecnologia nasce com o propósito de levar tecnologia acessível e eficiente para pequenas empresas e profissionais que querem crescer com presença digital.</p>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <div class="container">
+      <h2>Fale com a gente</h2>
+      <p>Entre em contato pelo WhatsApp: <strong>(11) 95707-6000</strong></p>
+      <a href="https://wa.me/5511957076000" target="_blank" class="btn">Enviar mensagem</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 MRG Tecnologia. Todos os direitos reservados.</p>
+    </div>
+  </footer>
 </body>
 </html>
